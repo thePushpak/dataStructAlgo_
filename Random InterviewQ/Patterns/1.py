@@ -4,3 +4,12 @@ def printTriangle(N):
 
         
 printTriangle(6)
+
+'''
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+'''

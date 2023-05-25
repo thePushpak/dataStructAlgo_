@@ -21,4 +21,4 @@ def monotonic(list):
     return "Not a Monotonic!"
     
     
-print(monotonic([]))
+print(monotonic([1,3,5,7,9]))
