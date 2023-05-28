@@ -25,3 +25,12 @@ def reverse(x: int) -> int:
         return rev
     
 print(reverse(-456))
+
+
+# simple solution
+# reverse=''
+#     for i in s:
+#         reverse = i + reverse
+#         print(reverse)
+#     reverse = int(reverse)
+#     return reverse
