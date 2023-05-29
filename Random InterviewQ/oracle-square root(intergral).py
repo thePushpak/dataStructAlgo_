@@ -16,13 +16,19 @@ def square_root(n):
         return 0
     
     left, right = 1, n
+    
     while left <= right:
         mid = (left + right) // 2
-        if mid * mid <= n < (mid + 1) * (mid + 1):
+        
+        if mid * mid == n:
             return mid
+        
         elif mid * mid < n:
             left = mid + 1
+            
         else:
             right = mid - 1
+            
+    return right
     
-print(square_root(17))
+print(square_root(18))
