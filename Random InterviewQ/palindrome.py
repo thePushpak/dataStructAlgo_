@@ -8,4 +8,4 @@ def palindrome(num):
     return rev == n
     
 
-print(palindrome(121))
+print(palindrome(151))
